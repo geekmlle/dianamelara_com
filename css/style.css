@@ -2,7 +2,7 @@ html,body {
     width: 100%;
     height: 100%;
     position:relative;
-    border-top: 10px solid white;
+    border-left: 10px
 }
 
 header {
@@ -10,8 +10,8 @@ header {
     width: 100%;
     min-height: auto;
     text-align: center;
-    color: #F2D3C3;
-
+    color: #fff;
+    border: 60px solid #c08e96;
 }
 
 header .header-content {
@@ -41,4 +41,100 @@ header .header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.section-title{
+    padding:20px;
+    font-size:2em;
+    text-align:center;
+    margin:auto;
+}
+
+.table-centered{
+    margin:auto;
+    padding:20px;
+    font-size:1.6em;
+}
+
+.table-centered td{
+    padding: 0 10px;
+}
+
+.right-aligned-text{
+    text-align: right;
+}
+
+.centered-text{
+    text-align: center;
+}
+
+.medium-centered-text{
+    padding: 40px 0 30px 0;
+    font-size:1.6em;
+    text-align: center;
+}
+
+.big-centered-text {
+    padding: 100px 0 30px 0;
+    font-size:3em;
+    text-align: center;
+}
+
+.work-image {
+    padding: 0;
+    margin:0;
+    height: 50px;
+}
+
+.hobbies-image {
+    padding: 0;
+    margin:0;
+    height: 350px;
+}
+
+.row-padding{
+    padding: 40px 0 ;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#hobbies {
+
+    margin: 0 0 70px 0;
+
+}
+
+.page-footer {
+    position: relative;
+    width: 100%;
+    height:400px;
+    min-height: auto;
+    padding: 40px;
+    text-align: center;
+    background-color: #c08e96;
+
+}
+
+#social-media {
+
+}
+
+.placeholder {
+    background: url('http://placehold.it/300x300');
+    position: relative;
+    bottom: 0;
+    left: 0.5em;
+    margin:0;
+    padding:0;
+    height: 300px;
+    font-weight: bold;
+
+}
+
+.placeholder p {
+    position: absolute; bottom: 0; left: 0; width: 270px; padding: 4px; background-color: #fff; font-weight: bold; font-size: 16px;
 }
