@@ -7,11 +7,11 @@
 
     <title>Diana Melara</title>
 
-    <!-- Custom CSS and JS -->
+    <!-- Custom CSS-->
     <link href="css/style.css" rel="stylesheet">
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- JQuery -->
+    <script src="js/jquery-2.2.2.min.js"></script>
 
     <!-- Custom Fonts from Google -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -28,152 +28,342 @@
 
 </head>
 <body>
-
-    <div class="container">
-        <header>
+    <header>
+        <div class="header">
             <div class="header-content">
-                <div class="header-content-inner">
-                    <h1>Diana Michelle Melara</h1>
-                    <h4>Computer Systems Engineer MsC Computer Science</h4>
+                <img id="logo" class="img-responsive" src="images/logo.PNG"/>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <section id="personal">
+            <div>
+                <p class="big-centered-text">Hi, my name is Diana Melara and I’m a Computer Systems Engineer born in Honduras with a Master’s
+                    Degree of Computer Science from Pace University in the Financial District in New York City. </p>
+                <p class="medium-centered-text">I have worked at a Data Warehouse for Millicom Honduras, Tigo, and I’m currently working as one
+                    of the developers and co-founders of a recycling startup, Intellibins, and as a Java Web
+                    Developer at Fox News Channel in the heart of New York. My favorite programming language is Java,
+                    and I have a bigger inclination towards back-end development.</p>
+            </div>
+        </section>
+        <section id="about-me">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="section-title">
+                            <h2>Skills</h2>
+                        </div>
+                        <div class="table-responsive table-centered">
+                            <table >
+                                <tr>
+                                    <td class="right-aligned-text">Data Warehousing</td>
+                                    <td>
+                                        <div class="rating">
+                                            &starf;&starf;&starf;&starf;&starf;
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="right-aligned-text">Java Core</td>
+                                    <td>
+                                        <div class="rating">
+                                            &starf;&starf;&starf;&starf;&star;
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="right-aligned-text">Java Web (JSP)</td>
+                                    <td>
+                                        <div class="rating">
+                                            &starf;&starf;&starf;&starf;&star;
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="right-aligned-text">Relational Databases</td>
+                                    <td>
+                                        <div class="rating">
+                                            &starf;&starf;&starf;&starf;&star;
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="right-aligned-text">HTML/CSS</td>
+                                    <td>
+                                        <div class="rating">
+                                            &starf;&starf;&starf;&starf;&star;
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="right-aligned-text">C#</td>
+                                    <td>
+                                        <div class="rating">
+                                            &starf;&starf;&starf;&starf;&star;
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="right-aligned-text">NoSql Databases</td>
+                                    <td>
+                                        <div class="rating">
+                                            &starf;&starf;&starf;&star;&star;
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="right-aligned-text">JavaScript</td>
+                                    <td>
+                                        <div class="rating">
+                                            &starf;&starf;&starf;&star;&star;
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="section-title">
+                            <h2>Languages</h2>
+                        </div>
+                        <div class="container-fluid">
+                            <p>Fluent English</p>
+                            <p>Fluent Spanish</p>
+                            <p>Basic French</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </header>
-
-        <section id="personal">
-            <p>Hi, my name is Diana Melara and I’m a Computer Systems Engineer born in Honduras with a Master’s Degree of Computer Science from Pace University in downtown New York City. </p>
-                <p>I have worked at a Data Warehouse for Millicom Honduras, Tigo, and I’m currently working as one of the developers and co-founders of a recycling startup, Intellibins, and as a Java Web Developer at Fox News Channel in the heart of New York.</p>
-                <p>My favorite programming language is Java, and I deeply enjoy being a back-end developer.</p>
-            </p>
-        </section>
-
-        <section id="skills">
-            <h2>Skills</h2>
-            <p>Data Warehousing: 5/5</p>
-            <p>Java: 5/5</p>
-            <p>Databases: 4/5</p>
-            <p>C#:3/5</p>
-            <p>HTML:4/5</p>
-            <p>CSS: 3/5</p>
-            <p>JS: 3/5</p>
-        </section>
-
-        <section id="languages">
-            <h2>Languages</h2>
-            <p>Spanish - Fluent</p>
-            <p>English - Fluent</p>
-            <p>French - Basic</p>
         </section>
 
         <section id="work">
-            <h2>Work</h2>
-            <ul>
-                <li>
-                    <h3>Fox News (March 2015 - Feb 2016)</h3>
-                    <h4>Java Developer</h4>
-                    <p>Assisted in developing the Science, U.S. pages as well as the O’Reilly Factor homepage. </p>
-                </li>
-                <li>
-                    <h3>Fox News (September 2014 - December 2014)</h3>
-                    <h4>College Associate Co-Op</h4>
-                    <p>Created a URL shortener RESTful API using the Play Framework 2.2.4, Java and Mongo DB.</p>
-                </li>
-                <li>
-                    <h3>Intellibins (September 2014 - )</h3>
-                    <h4>Co-Founder and Developer</h4>
-                    <p>Helped in managing the iOS side of our application and helped with the initial Google Mirror Api part of our app.</p>
-                </li>
-                <li>
-                    <h3>Seidenberg Creative Labs at Pace University (February 2013 - May 2014)</h3>
-                    <h4>Developer</h4>
-                    <p>Built a working prototype of a mobile app for STEM simulating an ER with different patients for nursing students. Added two webpages to the for a Pace Law School project that allowed users to download event registration data from the  database into Excel spreadsheets using the CakePHP framework.  </p>
-                </li>
-                <li>
-                    <h3>Millicom Cellular International, Tigo (July 2012 - December 2012)</h3>
-                    <h4>Data Warehouse Consultant</h4>
-                    <p>Spearheaded Brand Tracker project which enabled company to transition from Excel spreadsheets that tracked Tigo’s brand popularity among other telecommunication brands in Honduras into Microstrategy interactive dashboards. Designed the database architecture needed for Brand Tracker project.  Created PL/SQL procedures to load formatted data from Excel spreadsheets through APEX.  </p>
-                </li>
-                <li>
-                    <h3>Millicom Cellular International, Tigo (January 2011 - March 2012)</h3>
-                    <h4>Data Warehouse Programmer</h4>
-                    <p>Maintained and built web pages in the DWH portal using APEX 3.9, Oracle 10g and 11g. Built a short code SMS service in Java, that searches employees by first and last name, and returns the employee information. Created PL/SQL procedures to move data to the new and improved DWH, which used the IBM Telecommunications Model.</p>
-                </li>
-                <li>
-                    <h3>UNITEC (July 2010 - August 2010)</h3>
-                    <h4>Career Coordinator of Computer Systems</h4>
-                    <p>Had to establish direct contact with students when they had issues with classes, matriculation or to help them with graduation projects, internships and revision of their class grades. </p>
-                </li>
-                <li>
-                    <h3>UNITEC (July 2009 - August 2010)</h3>
-                    <h4>Physics 102 Lab Instructor</h4>
-                    <p>I worked for a year as a Physics 102 instructor having to present each of the 7 labs to students cursing through engineering classes. I had to present weekly grades and final exams of all students in each lab.</p>
-                </li>
-            </ul>
+            <div class="section-title">
+                <h2 >Work</h2>
+            </div>
+            <div class="container-fluid">
+                <div class="row row-padding ">
+                    <div class="col-md-4 col-md-offset-1">
+                        <img class="work-image" src="images/fn.jpg"/>
+                        <h3>Fox News Channel</h3>
+                        <h4>Java Developer</h4>
+                        <p>Developed the Science, Family, Obituary and U.S. pages as well as the O’Reilly Factor homepage using
+                            Java Web (JSPs).</p>
+                    </div>
+                    <div class="col-md-4 col-md-offset-1">
+                        <img class="work-image" src="images/fn.jpg"/>
+                        <h3>Fox News Channel</h3>
+                        <h4>College Associate Co-Op</h4>
+                        <p>Created a URL shortener RESTful API using the Play Framework 2.2.4, Java and Mongo DB. It allowed
+                            to store the links and the shortened URLs in the database. </p>
+                    </div>
+                </div>
+                <div class="row row-padding">
+                    <div class="col-md-4 col-md-offset-1">
+                        <img class="work-image" src="images/intellibins.jpg"/>
+                        <h3>Intellibins</h3>
+                        <h4>Co-Founder and Developer</h4>
+                        <p>Helped manage the iOS side of our application and created the initial Google Mirror
+                            Api Web App for the user notifications part of our app. The Google Mirror API
+                            project was set up on Google App Engine and used the Maven, Java starter project
+                            for Google Glass.</p>
+                    </div>
+                    <div class="col-md-4 col-md-offset-1">
+                        <img class="work-image" src="images/scl.png"/>
+                        <h3>Seidenberg Creative Labs</h3>
+                        <h4>Developer</h4>
+                        <p>Built a working prototype of a mobile app for STEM simulating an ER with different
+                            patients for nursing students. Added two webpages to the for a Pace Law School
+                            project that allowed users to download event registration data from the  database
+                            into Excel spreadsheets using the CakePHP framework.  </p>
+                    </div>
+                </div>
+                <div class="row row-padding">
+                    <div class="col-md-4 col-md-offset-1">
+                        <img class="work-image" src="images/tigo.png"/>
+                        <h3>Millicom, Tigo </h3>
+                        <h4>Data Warehouse Consultant</h4>
+                        <p> Spearheaded Brand Tracker project which enabled the company to transition from
+                            Excel spreadsheets that tracked Tigo’s brand popularity among other telecommunication
+                            brands in Honduras into Microstrategy interactive dashboards and designed the database
+                            architecture needed for Brand Tracker project.  Created PL/SQL procedures to load
+                            formatted data from Excel spreadsheets through APEX, an Oracle 11g plugin.  </p>
+                    </div>
+                    <div class="col-md-4 col-md-offset-1">
+                        <img class="work-image" src="images/tigo.png"/>
+                        <h3>Millicom, Tigo </h3>
+                        <h4>Data Warehouse Programmer</h4>
+                        <p> Maintained and built web pages in the Data Warehouse portal using APEX 3.9, Oracle 10g and 11g.
+                            Built a short code SMS service in Java, that searches employees by first and last name,
+                            and returns the employee information. Created PL/SQL procedures to move data to the
+                            new and improved Data Warehouse, which used the IBM Telecommunications Model.</p>
+                    </div>
+                </div>
+                <div class="row row-padding">
+                    <div class="col-md-4 col-md-offset-1">
+                        <img class="work-image" src="images/unitec.jpg"/>
+                        <h3>UNITEC </h3>
+                        <h4>Computer Systems Academic Advisor</h4>
+                        <p>Had to establish direct contact with students when they had issues with classes,
+                            matriculation or to help them with graduation projects, internships and
+                            revision of their class grades. </p>
+                    </div>
+                    <div class="col-md-4 col-md-offset-1">
+                        <img class="work-image" src="images/unitec.jpg"/>
+                        <h3>UNITEC </h3>
+                        <h4>Physics 102 Lab Instructor</h4>
+                        <p>Worked for a year as a Physics 102 instructor having to present each of the 7
+                            labs to students taking engineering classes. I had to present weekly
+                            grades and final exams of all students in each lab, as well as run tests
+                            on the current labs making sure the students could get the desired results
+                            from all 7 experiences. Some of the experience demonstrated the use of
+                            a pendulum to calculate Earth's gravity, dilation of different kinds of
+                            metallic bars, and Archimides' principle.</p>
+                    </div>
+
+                </div>
+            </div>
         </section>
 
         <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li>
-                    <a href="http://www.intellibins.nyc "><h3>Intellibins</h3></a>
-                    <h4>Recycle Better in New York</h4>
-                    <p>Intellibins is an app we started with Sandy Woodruff, Katherine Hurley and Prat Tanapaisankit which started as a Google Glass application at a Google Glass Hackathron by UbiTech in New York. After the hackathon, we decided to pursue the idea further and register our startup as a legal company. Currently, we have apps on the Apple App Store and on the Google Play Store, and we’re still working on making them better. </p>
-                </li>
-                <li>
-                    <a href="http://www.meetup.com/Pace-University-Mobile-Meetup/"><h3>Pace University Mobile & Wearable Meetups</h3></a>
-                    <h4>Pace University New York</h4>
-                    <p>Dr. Christelle Scharff, Chair of the Computer Science Department at Pace University, and I started the Mobile & Wearable Meetups to engage people in learning how to develop for mobile devices and wearables such as iOS, Android, Google Glass and more. This was a group for anyone interested in mobile and wearable technology, and being a Pace University student was not a requisite.</p>
-                </li>
-                <li>
-                    <a href="https://github.com/geekmlle/Every-day-Google-Glass"><h3>Everyday</h3></a>
-                    <h4>Graduation Project at Pace University</h4>
-                    <p>Everyday is the app I created for Google Glass as my graduation project. It used the Google Mirror API and it was completely a web based app that sent notifications for users with Google Glass if there was a holiday every day. The user could specify the time for each notification and the card sent allowed people to share the holiday through Twitter app.
-                        Created in Java, and using MySQL as the primary database it was hosted in Amazon’s AWS. Currently, the app is not live due to the dwindling use of Google Glass, but the entire code is open source and can be seen on Github.</p>
-                </li>
-                <li>
-                    <a href="https://www.microsoft.com/en-us/store/apps/parent-guard/9nblgggzq7bk"><h3>ParentGuard</h3></a>
-                    <h4>Windows Phone Mobile App</h4>
-                    <p>In a Microsoft Women’s Hackathon at Pace, Nivedita Joshi, Patrice Minott and I developed a Windows Phone 8 app in C# that tracks teens driving. The worries of parents when their teens are driving are really high nowadays and this app allows the phone to track the speed, time of arrival and geolocation of the driver and sends an SMS to parents’ or guardians’ phone for safe measure. </p>
-                    <p>Watch the video <a href="https://www.youtube.com/watch?v=lLFoX395x9k">here</a></p>
-                </li>
-            </ul>
-        </section>
-
-        <section id="passions">
-            <h2>Passions</h2>
-            <p>I’m absolutely passionate about developing software. I love delivering high quality products and the whole creative process of making it. I consider myself a very happy and active person who likes to say yes to new projects and experiences. Nothing can replace the thrill to learn something new or work on a new project.</p>
-            <p>My passion for coding started out very early and without realizing that I liked it as much as I do. When I was around 12 years old, I used to spend a lot of time on the Nickelodeon forums for shows like “Hey Arnold!” or “Rugrats”. The forums allowed the person to create customizable names using CSS and HTML. It amazed me how regular text could be changed into a “Word Art” (yeah, we used those all the time) with a few lines of code. But it wasn’t until I was a senior in high school that I decided to pursue my passion for computing at UNITEC with a Computer Systems Engineering Degree.</p>
-        </section>
-
-        <section id="social-media">
-            <h2>Social Media</h2>
-            <a href="https://www.facebook.com/fwwsc">Facebook</a>
-            <a href="https://twitter.com/geekmlle">Twitter </a>
-            <a href="https://www.linkedin.com/in/diana-melara-b5986b6b">LinkedIn</a>
-            <a href="https://github.com/geekmlle">Github </a>
-            <a href="https://plus.google.com/u/0/+DianaMichelle">G+</a>
-            <a href="https://www.goodreads.com/user/show/10761593-diana">Goodreads</a>
-        </section>
-
-        <section id="contact-me">
-            <h2>Contact Me</h2>
-            <a href="mailto:geekmlle@gmail.com?Subject=Hello%20Michelle!">geekmlle@gmail.com</a>
-        </section>
-
-        <section id="hobbies">
-            <h2>Hobbies</h2>
-            <p>Even though I am a full-time developer by day, I’m also a Nail Art designer by night. Nail art allows me to be creative in a micro-way. I don’t do other people’s nails, I just enjoy doing my own for recreation. It’s been a hobby since I left high school and it’s extremely relaxing for me. Here’s some of the designs I’ve worn over time.</p>
-            <p>My second favorite hobby is reading. I love getting lost in a book and my challenge of books to read this year is 70. You can follow my book reading progress at <a href="http://goodreads.com">goodreads.com</a> </p>
-        </section>
-
-        <footer class="page-footer">
-            <div>
-                <div class="container">
-                    <p>Copyright &copy; dianamelara.com 2016</p>
+            <div class="section-title">
+                <h2>Projects</h2>
+            </div>
+            <div class="container-fluid">
+                <div class="row row-padding">
+                    <div class="col-md-4">
+                        <img class="project-image" src="images/intellibins_project.png"/>
+                    </div>
+                    <div class="col-md-8">
+                        <a href="http://www.intellibins.nyc "><h3>Intellibins</h3></a>
+                        <h4>Recycle Better in New York</h4>
+                        <p>Intellibins is an app we started with Sandy Woodruff, Katherine Hurley and Prat
+                            Tanapaisankit which started as a Google Glass application at a Google Glass Hackathon
+                            by UbiTech in New York. After the hackathon, we decided to pursue the idea further and
+                            register our startup as a legal company. Currently, we have apps on the Apple App Store
+                            and on the Google Play Store, and we’re still working on making them better. </p>
+                    </div>
+                </div>
+                <div class="row row-padding">
+                    <div class="col-md-8">
+                        <a href="http://www.meetup.com/Pace-University-Mobile-Meetup/"><h3>Pace University Mobile
+                            & Wearable Meetups</h3></a>
+                        <h4>Pace University New York</h4>
+                        <p>Dr. Christelle Scharff, Chair of the Computer Science Department at Pace University, and
+                            I started the Mobile & Wearable Meetups to engage people in learning how to develop for
+                            mobile devices and wearables such as iOS, Android, Google Glass and more. This was a group
+                            for anyone interested in mobile and wearable technology, and being a Pace University student was not a requisite.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="project-image"  src="images/meetup.png"/>
+                    </div>
+                </div>
+                <div class="row row-padding">
+                    <div class="col-md-4">
+                        <img class="project-image"  src="images/everyday.png"/>
+                    </div>
+                    <div class="col-md-8">
+                        <a href="https://github.com/geekmlle/Every-day-Google-Glass"><h3>Everyday</h3></a>
+                        <h4>Graduation Project at Pace University</h4>
+                        <p>Everyday is the app I created for Google Glass as my graduation project. It used the Google Mirror
+                            API and it was completely a web based app that sent notifications for users with Google Glass if
+                            there was a holiday every day. The user could specify the time for each notification and the card sent allowed people to share the holiday through Twitter app.
+                            Created in Java, and using MySQL as the primary database it was hosted in Amazon’s AWS. Currently, the app is not live due to the dwindling use of Google Glass, but the entire code is open source and can be seen on Github.</p>
+                    </div>
+                </div>
+                <div class="row row-padding">
+                    <div class="col-md-8">
+                        <a href="https://www.microsoft.com/en-us/store/apps/parent-guard/9nblgggzq7bk"><h3>ParentGuard</h3></a>
+                        <h4>Windows Phone Mobile App</h4>
+                        <p>In a Microsoft Women’s Hackathon at Pace, Nivedita Joshi, Patrice Minott and I developed a Windows Phone 8 app in C# that tracks teens driving. The worries of parents when their teens are driving are really high nowadays and this app allows the phone to track the speed, time of arrival and geolocation of the driver and sends an SMS to parents’ or guardians’ phone for safe measure. </p>
+                        <p>Watch the video <a href="https://www.youtube.com/watch?v=lLFoX395x9k">here</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="project-image"  src="images/parentGuard.JPG"/>
+                    </div>
+                </div>
+                <div class="row row-padding">
+                    <div class="col-md-4">
+                        <img class="project-image"  src="images/buoycast.jpg"/>
+                    </div>
+                    <div class="col-md-8">
+                        <a href="http://pdp.fi/portfolio-items/buoycast-2014-2015/"><h3>Buoycast</h3></a>
+                        <h4>Product Development Project at Aalto University in Finland</h4>
+                        <p>Buoycast is a project created by students from Aalto University and Pace University in New York through PDP, Product Development Project.
+                            It is a proposed solution for surface-to-surface communications in places with low energy and extreme conditions. It comes from the
+                            "message in a bottle" idea in the sea. It's built like a small encased Intel Edison with batteries that can re-charge themselves.
+                            The Intel Edison would be capable of communicating to nearby Buoycasts and transfer messages across longer distances using
+                            multiple devices.</p>
+                    </div>
                 </div>
             </div>
 
-        </footer>
+        </section>
 
+        <section id="contact-me">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 centered-text">
+                        <div class="section-title">
+                            <h2>Contact Me</h2>
+                        </div>
+                        <a href="mailto:geekmlle@gmail.com?Subject=Hello%20Michelle!">geekmlle@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="hobbies">
+            <div class="section-title">
+                <h2>Hobbies</h2>
+            </div>
+            <p class="medium-centered-text">Even though I am a full-time developer by day, I’m also a Nail Art
+                designer by night. Nail art allows me to be creative in a micro-way. I don’t do other people’s
+                nails, I just enjoy doing my own for recreation. It’s been a hobby since I left high school
+                and it’s extremely relaxing for me. Here’s some of the designs I’ve worn over time.</p>
+
+            <div class="container-fluid">
+                <div class="row ">
+                    <div class="col-md-3 ">
+                        <img class="hobbies-image" src="images/nails1.jpg"/>
+                    </div>
+                    <div class="col-md-3 ">
+                        <img class="hobbies-image" src="images/nails2.jpg"/>
+                    </div>
+                    <div class="col-md-3 ">
+                        <img class="hobbies-image" src="images/nails3.jpg"/>
+                    </div>
+                    <div class="col-md-3 ">
+                        <img class="hobbies-image" src="images/nails4.jpg"/>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
+    <footer class="page-footer">
+        <div id="social-media">
+            <a href="https://www.facebook.com/fwwsc" target="_blank">Facebook</a>
+            <a href="https://twitter.com/geekmlle" target="_blank">Twitter </a>
+            <a href="https://www.linkedin.com/in/diana-melara-b5986b6b" target="_blank">LinkedIn</a>
+            <a href="https://github.com/geekmlle" target="_blank">Github </a>
+            <a href="https://plus.google.com/u/0/+DianaMichelle" target="_blank">G+</a>
+            <a href="https://www.goodreads.com/user/show/10761593-diana" target="_blank">Goodreads</a>
+            <a href="https://www.instagram.com/fwwsc/" target="_blank">Instagram</a>
+        </div>
+        <div class="container">
+            <p>Copyright &copy; dianamelara.com 2016</p>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
 </body>
 </html>
