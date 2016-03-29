@@ -17,20 +17,6 @@ header .header-content {
     position: relative;
     width: 100%;
     padding: 250px 0;
-    text-align: center;
-}
-
-header .header-content h1 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-size: 50px;
-    font-weight: 300;
-}
-
-header .header-content h4 {
-    margin-bottom: 50px;
-    font-size: 18px;
-    font-weight: 300;
 }
 
 header .header {
@@ -202,3 +188,41 @@ header .header {
 }
 
 /*Slides*/
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: auto;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+
+.rslides_nav{
+    color:black;
+    font-size:1.5em;
+    padding:60px;
+    text-align: center;
+}
