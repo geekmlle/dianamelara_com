@@ -17,20 +17,6 @@ header .header-content {
     position: relative;
     width: 100%;
     padding: 250px 0;
-    text-align: center;
-}
-
-header .header-content h1 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-size: 50px;
-    font-weight: 300;
-}
-
-header .header-content h4 {
-    margin-bottom: 50px;
-    font-size: 18px;
-    font-weight: 300;
 }
 
 header .header {
@@ -53,6 +39,18 @@ header .header {
     font-size:2em;
     text-align:center;
     margin:auto;
+}
+
+#about-me{
+    background-color:#0081AC;
+    color:#fff;
+    padding-bottom:35px;
+}
+
+#projects{
+    background-color:#00B7CF;
+    color:#fff;
+    padding-bottom:35px;
 }
 
 .table-centered{
@@ -118,35 +116,113 @@ header .header {
     height:300px;
 }
 
+#projects h3{
+    font-size:2em;
+}
+
+#projects a{
+    color: #b9f3ff;
+    font-weight:bold;
+}
+
+#projects a:hover{
+    text-decoration: none;
+    color:#fff;
+}
+
 #hobbies {
-
     margin: 0 0 70px 0;
-
 }
 
 .page-footer {
     position: relative;
     width: 100%;
-    height:400px;
+    height:300px;
     min-height: auto;
     padding: 40px;
     text-align: center;
     background-color: #001629;
-
 }
 
-.placeholder {
-    background: url('http://placehold.it/300x300');
-    position: relative;
-    bottom: 0;
-    left: 0.5em;
+#social-media{
+    padding:20px 0;
+}
+
+#social-media a{
+    padding-left:20px;
+}
+
+#social-media  a:hover{
+    color:#fff;
+    text-decoration: none;
+}
+
+#copyright{
+    margin:0;
+    padding:20px 0;
+    color:#fff;
+}
+
+#contact-me-button{
+    height:50px;
+    padding:10px;
+    border-radius:3px;
+    background-color:#0081AC;
+    width:320px;
+    margin:auto;
+}
+
+
+#contact-me-button a{
+    color:black;
+}
+
+#contact-me-button a:hover{
+    color:#fff;
+    text-decoration: none;
+}
+
+#contact-me-button h2{
     margin:0;
     padding:0;
-    height: 300px;
-    font-weight: bold;
-
 }
 
-.placeholder p {
-    position: absolute; bottom: 0; left: 0; width: 270px; padding: 4px; background-color: #fff; font-weight: bold; font-size: 16px;
+/*Slides*/
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: auto;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+
+.rslides_nav{
+    color:black;
+    font-size:1.5em;
+    padding:60px;
+    text-align: center;
 }
